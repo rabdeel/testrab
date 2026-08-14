@@ -256,3 +256,4 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+app_include_css = "/assets/emesh_theme/css/emesh_theme.css"
