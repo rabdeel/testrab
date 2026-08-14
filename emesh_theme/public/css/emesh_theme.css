@@ -28,3 +28,41 @@
     position: relative;
     z-index: 1;
 }
+/* =========================================================
+   Emesh Technology Ltd - Login Page Branding
+   ========================================================= */
+
+.for-login {
+    background: #f5f7fa;
+}
+
+.for-login .page-card {
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.for-login .page-card-head {
+    padding-top: 170px;
+    position: relative;
+}
+
+/* Clear Emesh logo above the login form */
+.for-login .page-card-head::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 240px;
+    height: 130px;
+    background-image: url("/assets/emesh_theme/images/emesh-watermark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Keep the logo clear on the login page */
+.for-login .page-card-head::after {
+    display: none;
+}
